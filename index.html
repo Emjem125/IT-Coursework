@@ -1,61 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="utf-8">  <!--Define Character set - UTF-8 is unicode so will allow the site to use non english characters if needed -->
-        <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Allow older IE browsers to work with this site -->
-        
-        <!-- Author and description for SEO-->
-        <meta name="author" content="Emily Leader" > 
-        <meta name="description" content="A-Level Coursework">
-        <meta name="robots" content="all,follow"> <!-- info for robots.  Allows access to all content and links -->
+<head>
+    <meta charset="utf-8">
+    <!--Define Character set - UTF-8 is unicode so will allow the site to use non english characters if needed -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Allow older IE browsers to work with this site -->
 
-        <!-- Define the visible area of the page - optimised for mobile devices if needed-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+    <!-- Author and description for SEO-->
+    <meta name="author" content="Emily Leader">
+    <meta name="description" content="A-Level Coursework">
+    <meta name="robots" content="all,follow"> <!-- info for robots.  Allows access to all content and links -->
 
-        <title>Emily's IT Coursework Website</title>
-        
-        <link rel="stylesheet" href="css/styles.default.css">
-        <link rel="shortcut icon" href="img/Phoenix Production 2.png" >
-    </head>
+    <!-- Define the visible area of the page - optimised for mobile devices if needed-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <body>
+
+    <title>Emily's IT Coursework Website</title>
+
+    <link rel="stylesheet" href="css/styles.default.css">
+    <link rel="stylesheet" href="css/styles.navbar.css">
+    <link rel="shortcut icon" href="img/Phoenix Production 2.png">
+</head>
+
+<body>
+    <header>
         <div class="container">
-            <img src="img/Scripttable.jpg" style="width: 100%; height: 30%;">
-            <div class="centered">Welcome To Phoenix Productions</div>
+
+            <img class="header-img" src="img/Scripttable.jpg" alt="">
+            <div class="header-text">Welcome To Phoenix Productions</div>
+
         </div>
-        <div>
-            <ul>
-            <li>
-                <a class="nav-link text-uppercase" href="index.html">Home</a>
-            </li>
-            <li>
-                <a class="nav-link text-uppercase" href="index.html">Meet Our Team</a>
-            </li>
-            <li>
-                <a class="nav-link text-uppercase" href="index.html">Training Courses</a>
-            </li>
-            <li>
-                <a class="nav-link text-uppercase" href="index.html">Apply</a>
-            </li>
-            </ul>
-        </div>
-        <div><br><br></div>
-        <div>
-            <img src="img/Camera Filming.jpg" alt="Filming"/>
-        </div>
+
+        <nav class="navbar navbar-colour navbar-expand py-3 shadow-sm">
+            <div class="container">
+                <ul class="navbar-colour">
+                    <li class="navbar-item">
+                        <a class="nav-link text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-uppercase" href="index.html">Meet Our Team</a>
+                    </li>
+                    <li class="navbar-item">
+                        <img class="navbar-image" src="img/Phoenix Production 2.png" alt="" />
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-uppercase" href="index.html">Training Courses</a>
+                    </li>
+                    <li class="navbar-item-last">
+                        <a class="nav-link text-uppercase" href="index.html">Apply</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div>.</div>
+    <div>.</div>
+    <div class="col-6">
+
+
         <div>
             <h2>About Us</h2>
         </div>
         <div>
-            <p>Welcome to Phoenix Productions, our company is here to provide creative content from Films, Tv Programs and more to our audiences all around the world. We ensure to give our best with help from out amazing crew no matter what!</p>
+            <p>Welcome to Phoenix Productions, our company is here to provide creative content from Films, Tv Programs
+                and
+                more to our audiences all around the world. We ensure to give our best with help from out amazing crew
+                no
+                matter what!</p>
         </div>
         <div>
-            <p> We are working diligently on our new film Parallel Lines, but we are looking for some qualified candidates to take on some of the extrea roles that are currently available, so if you are interested check out the information that is available here.</p>
+            <p> We are working diligently on our new film Parallel Lines, but we are looking for some qualified
+                candidates
+                to take on some of the extrea roles that are currently available, so if you are interested check out the
+                information that is available here.</p>
         </div>
-     
+    </div>
+    <div class="col-6">
+        <img class="standard-img" src="img/Camera Filming.jpg" alt="Filming" />
+    </div>
 
-    </body>
+    </div>
+
+</body>
 
 </html>

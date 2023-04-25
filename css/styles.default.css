@@ -1,5 +1,4 @@
-<<<<<<< Updated upstream
-=======
+
 
 * {
   box-sizing: border-box;
@@ -8,7 +7,7 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid rgba(255, 0, 0, 0);
+  border: 1px solid rgba(206, 4, 4, 0.699);
 }
 
 .col-1 {width: 8.33%;}
@@ -17,7 +16,7 @@
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
+.col-7 {width: 50.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
@@ -25,7 +24,6 @@
 .col-12 {width: 100%;}
 
 
->>>>>>> Stashed changes
 body {
     background-color: rgb(234, 223, 218);
   }
@@ -34,11 +32,8 @@ body {
   }
   h2 {
     color: rgb(44, 18, 2);
-<<<<<<< Updated upstream
-    font-size: 50px;
-=======
+    font-size: 60px;
     font-size: 35px;
->>>>>>> Stashed changes
     font-family:Times ;
     font-weight: 400;
     font-stretch:extra-expanded;
@@ -47,24 +42,21 @@ body {
 
   }
   p {
-    color: rgb(0, 0, 0);
-<<<<<<< Updated upstream
+    color: rgb(44, 18, 2);
     font-size: 20px;
-=======
     font-size: 23px;
->>>>>>> Stashed changes
     font-family: sans-serif;
     text-align: center;
     font-weight: 400;
     
   }
 
-<<<<<<< Updated upstream
+
   img {
     float: right;
     height: 500px;
     width: 750px;
-=======
+  }
 
   .header-img {
     height: 50%;
@@ -72,7 +64,7 @@ body {
   }
 
   .header-text {
-    position: absolute;
+    position: relative;
     top: 30%;
     width: 50%;
     margin-left: 25%;
@@ -90,7 +82,13 @@ body {
     width: 95%;
     height: 75%;
 
->>>>>>> Stashed changes
+  }
+
+  .horizontal-img {
+    width: 25%;
+    height: 30%;
+    padding: 0%;
+    left: 20px;
   }
 
   .container {
@@ -111,6 +109,16 @@ body {
     outline: auto;
     outline-width: 20px;
     outline-color: rgba(43, 17, 0, 0.829);
+  }
+
+  .left {
+    position:absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-25%, 600%);
+    background-color: rgba(234, 223, 218, 0.726);
+    margin: 5px;
+    padding: 20px;
   }
 
   ul{
@@ -139,3 +147,32 @@ body {
     background-color: rgba(41, 19, 9, 0.568);
   }
 
+  .button1 {
+    background: rgb(100, 65, 53) ;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+
+  }
+
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+  }
+
+  .button1:hover span {
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .right-text {
+    float: right;
+    text-align: center;
+  }

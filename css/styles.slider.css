@@ -1,0 +1,52 @@
+.slide-container {
+    position: relative;
+    margin: auto;
+    
+}
+
+.column {
+    float: left;
+    margin-bottom: 16px;
+    padding: 0 8px;
+    width: 33.3%;
+}
+
+.card {
+    background-color: rgba(41, 19, 9, 0.568);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,20);
+    padding: 0 16px;
+    border-radius: 50px;
+
+}
+
+.card-header {
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.card-body {
+    background-color: rgba(240, 223, 216, 0.568);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    text-align: center;
+    
+    
+}
+
+.card-quote {
+    background-color: rgba(240, 223, 216, 0.568);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:medium;
+    font-style: italic;
+}
+
+.card-image {
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}

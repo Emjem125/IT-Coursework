@@ -63,19 +63,21 @@ body {
     width: 100%;
   }
 
+
   .header-text {
-    position: relative;
-    top: 30%;
-    width: 50%;
-    margin-left: 25%;
+    position: absolute;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 15%;
     text-align: center;
-    font-size: 6vw;
+    font-size: 3vw;
     font-family:'Times New Roman', Times, serif;
     color: white;
-    background-color: rgba(41, 19, 9, 0.568);
+    background-color: rgba(49, 23, 11, 0.568);
     outline: auto;
     outline-width: 20px;
     outline-color: rgba(43, 17, 0, 0.829);
+    padding: 3%;
   }
 
   .standard-img {
@@ -92,9 +94,11 @@ body {
   }
 
   .container {
+    width: 100%;
     position: relative;
-    text-align: center;
-    color: white;
+   
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .centered {
@@ -110,7 +114,6 @@ body {
     outline-width: 20px;
     outline-color: rgba(43, 17, 0, 0.829);
   }
-
   .left {
     position:absolute;
     top: 90%;
@@ -120,7 +123,6 @@ body {
     margin: 5px;
     padding: 20px;
   }
-
   ul{
     list-style-type: none;
     padding: 0.5%;
@@ -175,4 +177,39 @@ body {
   .right-text {
     float: right;
     text-align: center;
+  }
+
+  .container2 {
+    width: 100%;
+    position: relative;
+   
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .head-text {
+    position: absolute;
+    top: 42.6%;
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 3.3vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(102, 43, 3);
+    background-color: rgba(245, 219, 207, 0.719);
+    padding: 1%;
+  }
+
+  .paragraph-text {
+    position: absolute;
+    top: 53.7%;
+    width: 45%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(43, 17, 0, 0.829);
+    background-color: rgba(245, 219, 207, 0.719);
+    padding: 2%;
   }

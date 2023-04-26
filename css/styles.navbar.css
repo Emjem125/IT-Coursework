@@ -1,54 +1,49 @@
 .navbar {
-    position: relative;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-  }
+  width: 100%;
+  overflow: auto;
+}
 
-  .navbar-expand {
-    flex-wrap:nowrap;
-    justify-content: flex-start;
-  }
+.navbar-expand {
+  flex-wrap:nowrap;
+  justify-content: flex-start;
+}
 
-  .navbar-colour {
-    background-color: rgb(100, 65, 53);
-    
-  }
-
-  .navbar-item {
-    border-right: 0.2vw solid rgb(255,255,255) ;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2vw;
-    padding: 0.2vw;
-  }
+.navbar-colour {
+  background-color: rgb(100, 65, 53);
   
+}
 
-  .navbar-item-last {
-    border-right: none;
-    
-  }
+.navbar-item {
+  float: left;
+  text-align: center;
+  width: 25%;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2vw;
+  padding: 0.01vw;
+}
 
-  .navbar-image {
-    border: 1px solid;
-    padding: 0.5rem;
-    width: 150px;
-    height: 150px;
-  }
+.navbar-border {
+  border-right: 0.2vw solid rgb(255,255,255) ;
 
-  .navbar-collapse {
-    flex-basis: 100%;
-    flex-grow: 1;
-    align-items: center;
-  }
+}
 
-  .py-3 {
-    padding-top: 1rem !important;
-    padding-bottom: 1rem !important;
-  }
+.navbar-image {
+  padding: 0.2vw;
+  width: 150px;
+  height: 100px;
+}
 
-  .shadow-sm {
-    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
-  }
+.navbar-collapse {
+  flex-basis: 100%;
+  flex-grow: 1;
+  align-items: center;
+}
+
+.py-3 {
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+}
+
+.shadow-sm {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Define Character set - UTF-8 is unicode so will allow the site to use non english characters if needed -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Allow older IE browsers to work with this site -->
+
+    <!-- Author and description for SEO-->
+    <meta name="author" content="Emily Leader">
+    <meta name="description" content="A-Level Coursework">
+    <meta name="robots" content="all,follow"> <!-- info for robots.  Allows access to all content and links -->
+
+    <!-- Define the visible area of the page - optimised for mobile devices if needed-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Emily's IT Coursework Website</title>
+
+    <link rel="stylesheet" href="css/styles.default.css">
+    <link rel="stylesheet" href="css/styles.navbar.css">
+    <link rel="stylesheet" href="css/styles.form.css">
+
+    <link rel="shortcut icon" href="img/Phoenix Production 2.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-text centered-axis-xy">Application</div>
+        </div>
+        <nav class="navbar navbar-colour navbar-expand py-3 shadow-sm col-12">
+            <div class="container">
+                <ul class="navbar-colour">
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="team.html">Meet Our Team</a>
+                    </li>
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="index.html">Training Courses</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-uppercase" href="Apply.html">Apply</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <form>
+        <div class="form-container">
+            <h1 class="form">Application</h1>
+            <p class="required-text">* Required Field</p>
+            
+            <label for="FirstName">First Name<span class="required">*</span></label>
+            <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required>
+            
+            <label for="LasttName">Last Name<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required>
+
+            <label for="PhoneNumber">Phone Number<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Phone Number" name="PhoneNumber" id="PhoneNumber" required>
+
+            <label for="Email">Email<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Email Address" name="Email" id="Email" required>
+
+            <label for="Ethnicity">Ethnicity<span class="required">*</span></label>
+            <select id="Ethnicity" name="Ethnicity">
+                <option value="Asian">Asian</option>
+                <option value="African">African</option>
+                <option value="European">European</option>
+                <option value="Cheese">Cheese</option>
+                <option value="Other">Other</option>
+            </select>
+            
+            <label for="Experience">Do you have previous experience in this Industry?<span class="required">*</span></label><br>
+            <input type="radio" name="experience" value="Yes">Yes
+            <input type="radio" name="experience" value="No">No
+            <br>
+            <label for="summary">State where and when you received experience below</label>
+            <textarea id="summary"></textarea>
+           
+            <label for="cvupload">Upload a CV</label>
+            <input type="file" id="myFile" name="filename">
+            <br/>
+            <input type="submit" value="Apply">
+
+
+        </div>
+    </form>
+</body>

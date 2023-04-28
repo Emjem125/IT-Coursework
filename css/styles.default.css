@@ -14,7 +14,7 @@
 .col-4 {width: 33.33%;}
 .col-5 {width: 41.66%;}
 .col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
+.col-7 {width: 50.33%;}
 .col-8 {width: 66.66%;}
 .col-9 {width: 75%;}
 .col-10 {width: 83.33%;}
@@ -24,15 +24,14 @@
 
 body {
     background-color: rgb(234, 223, 218);
-    font-size: 100%;
   }
-
   h1 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
   }
   h2 {
     color: rgb(44, 18, 2);
-    font-size: 2vw;
+    font-size: 60px;
+    font-size: 40px;
     font-family:Times ;
     font-weight: 400;
     font-stretch:extra-expanded;
@@ -41,11 +40,18 @@ body {
 
   }
   p {
-    color: rgb(0, 0, 0);
-    font-size: 1vw;
+    color: rgb(44, 18, 2);
+    font-size: 20px;
+    font-size: 23px;
     font-family: sans-serif;
     text-align: center;
+    font-weight: 400;
     
+  }
+
+  .small-img {
+    width: 50%;
+    height: 50%;
   }
 
 
@@ -54,26 +60,49 @@ body {
     width: 100%;
   }
 
+  .header-container {
+    background-image: url("../img/scripttable.jpg");
+  
+    min-height: 750px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+
+
+.centered-axis-xy {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
   .header-text {
-    position: absolute;
-    top: 30%;
-    width: 50%;
-    margin-left: 25%;
+    padding: 10px;
     text-align: center;
     font-size: 3vw;
     font-family:'Times New Roman', Times, serif;
-    background-color: rgba(41, 19, 9, 0.568);
+    color: white;
+    background-color: rgba(49, 23, 11, 0.568);
+    outline: auto;
+    outline-width: 20px;
+    outline-color: rgba(43, 17, 0, 0.829);
   }
 
+
   .standard-img {
-    width: 75%;
+    width: 95%;
     height: 75%;
 
   }
 
-  .small-img {
-    width: 50%;
-    height: 50%;
+  .horizontal-img {
+    width: 25%;
+    height: 30%;
+    margin-left: 80px;
+    margin-right: 60px;
+    align-items: center;
   }
 
   .container {
@@ -97,7 +126,15 @@ body {
     outline-width: 20px;
     outline-color: rgba(43, 17, 0, 0.829);
   }
-
+  .left {
+    position:absolute;
+    top: 90%;
+    left: 20%;
+    transform: translate(-25%, 600%);
+    background-color: rgba(234, 223, 218, 0.726);
+    margin: 5px;
+    padding: 20px;
+  }
   ul{
     list-style-type: none;
     padding: 0.5%;
@@ -123,3 +160,174 @@ body {
   li a:hover {
     background-color: rgba(41, 19, 9, 0.568);
   }
+
+  .button1 {
+    background: rgb(100, 65, 53) ;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    font-size: 20px;
+
+  }
+
+  .button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+  }
+
+  .button1:hover span {
+    padding-right: 20px;
+    color: white;
+  }
+  
+  .right-text {
+    float: right;
+    text-align: center;
+  }
+
+  .container2 {
+    width: 100%;
+    position: relative;
+   
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+  .head-text {
+    position: absolute;
+    top: 42.6%;
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 3.3vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(102, 43, 3);
+    background-color: rgba(245, 219, 207, 0.719);
+    padding: 1%;
+  }
+
+  .paragraph-text {
+    position: absolute;
+    top: 53.7%;
+    width: 45%;
+    margin-left: 5%;
+    text-align: left;
+    font-size: 2vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(43, 17, 0, 0.829);
+    background-color: rgba(245, 219, 207, 0.719);
+    padding: 2%;
+  }
+
+  .head-community {
+    margin-bottom: 5%;
+  }
+
+  .lower-text {
+    padding: 14%;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 8%;
+    font-size: 25px;
+  }
+
+  .button2 {
+    background: rgb(100, 65, 53) ;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin: 30px;
+    margin-left: 39%;
+    font-size: 20px;
+  }
+
+  .button2 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.8s;
+  }
+
+  .button2:hover span {
+    padding-right: 20px;
+    color: white;
+  }
+
+  .film-img {
+    width: 95%;
+    height: 75%;
+  }
+
+.qual-list {
+  color: rgb(44, 18, 2);
+  font-size: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.qual-section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button-apply {
+  background: rgb(100, 65, 53) ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 35%;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+.button-apply span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+.button-apply:hover span {
+  padding-right: 20px;
+  color: white;
+}
+
+.button-training {
+  background: rgb(100, 65, 53) ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 50%;
+  margin-left: 50%;
+  font-size: 20px;
+}
+
+.button-training span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+.button-training:hover span {
+  padding-right: 20px;
+  color: white;
+}

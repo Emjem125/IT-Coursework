@@ -150,7 +150,7 @@ body {
 
   li a {
     display: block;
-    color: white;
+    color: rgb(255, 255, 255);
     font-family: sans-serif;
     font-size: 25px;
     text-align: center;
@@ -330,4 +330,17 @@ body {
 .button-training:hover span {
   padding-right: 20px;
   color: white;
+}
+
+.list-text {
+  position: absolute;
+    top: 67.8%;
+    width: 45%;
+    margin-left: 5%;
+    text-align: center;
+    font-size: 3vw;
+    font-family:'Times New Roman', Times, serif;
+    color: rgba(43, 17, 0, 0.829);
+    background-color: rgba(245, 219, 207, 0.719);
+    padding: 1%;
 }

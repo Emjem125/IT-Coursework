@@ -282,30 +282,7 @@ body {
   margin-right: 10%;
 }
 
-.button-apply {
-  background: rgb(100, 65, 53) ;
-  color: white;
-  text-align: center;
-  cursor: pointer;
-  padding: 5px;
-  width: 200px;
-  height: 50px;
-  margin-right: 35%;
-  margin-left: 35%;
-  font-size: 20px;
-}
 
-.button-apply span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.8s;
-}
-
-.button-apply:hover span {
-  padding-right: 20px;
-  color: white;
-}
 
 .button-training {
   background: rgb(100, 65, 53) ;
@@ -331,3 +308,42 @@ body {
   padding-right: 20px;
   color: white;
 }
+
+.button-apply {
+  background: rgb(100, 65, 53) ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 50%;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+.button-apply span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+.button-apply:hover span {
+  padding-right: 20px;
+  color: white;
+}
+
+.list-text {
+  position: absolute;
+  top: 68.1%;
+  width: 45%;
+  margin-left: 5%;
+  text-align: left;
+  font-size: 5px;
+  font-family:'Times New Roman', Times, serif;
+  color: rgba(43, 17, 0, 0.829);
+  background-color: rgba(245, 219, 207, 0.719);
+  padding: 2%;
+}
+

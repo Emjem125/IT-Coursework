@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <!--Define Character set - UTF-8 is unicode so will allow the site to use non english characters if needed -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Allow older IE browsers to work with this site -->
+
+    <!-- Author and description for SEO-->
+    <meta name="author" content="Emily Leader">
+    <meta name="description" content="A-Level Coursework">
+    <meta name="robots" content="all,follow"> <!-- info for robots.  Allows access to all content and links -->
+
+    <!-- Define the visible area of the page - optimised for mobile devices if needed-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Emily's IT Coursework Website</title>
+
+    <link rel="stylesheet" href="css/styles.default.css">
+    <link rel="stylesheet" href="css/styles.navbar.css">
+    <link rel="stylesheet" href="css/styles.form.css">
+
+    <link rel="shortcut icon" href="img/Phoenix Production 2.png">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-text centered-axis-xy">Application</div>
+        </div>
+        <nav class="navbar navbar-colour navbar-expand py-3 shadow-sm col-12">
+            <div class="container">
+                <ul class="navbar-colour">
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="index.html">Home</a>
+                    </li>
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="team.html">Meet Our Team</a>
+                    </li>
+                    <li class="navbar-item navbar-border">
+                        <a class="nav-link text-uppercase" href="index.html">Training Courses</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a class="nav-link text-uppercase" href="Apply.html">Apply</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="col-6">
+        <div>
+            <h2>Qualifications & Requirements</h2>
+        </div>
+        <div>
+            <p>For our latest project Parallel Lines, we are in need of a range of capable actors and actresses who are 
+                able to fulfill the roles of film extras for the film ages ranging from Child roles all the way to Elder roles.
+                To get you into your role our hair and make-up team will prepare you before filming to get you ready for the screen 
+                so there is no need to do this yourself and we shall also provide clothing for you on the day.  
+            </p>
+        </div>
+        <div>
+            <p>
+                Those who are able to meet the requirements that are expected to be achieved, please click the Apply button to 
+                begin the application process. The filming hours will could be any time of day so please consider your availability before applying.
+                Thank you. 
+            </p>
+        </div>
+    </div>
+    <div class="col-6">
+        <img class="film-img" src="img/DvD.jpg" alt="Filming" />
+    </div>
+    
+    <div class="col-12">
+        <div class="qual-section">
+            <div>
+                <h2>Have You Met These?</h2>
+            </div>
+            <div class="qual-list">
+                <div>
+                    <li style="list-style: circle;">
+                    Qualifications - GCSE or A-Level in some completed form of Media, Acting, Drama or Theatre, this are
+                    are required to have a certificate as proof. Or online courses that have been met and provided a certificate
+                    will be accepted as well. 
+                    </li>
+                </div>
+                <div>
+                    <li style="list-style: circle;">
+                    Requirements - Some form of experience, eg. work experience, theatre performance or acting gigs etc. The ability to 
+                    present a clear use of vocals, movement, expressions with confidence and stamina to be able to maintain working 
+                    for multiple hours a day or at night. 
+                    </li>
+                </div>
+            </div>
+            <div class="below-txt">
+                <p>
+                    If you have not been able to meet the expected qualifications and requirements presented, don't panic as we provide links to 
+                    training courses to help you achieve these, so go try them out before you apply any time you are free.
+                </p>
+            </div>
+        </div>
+        
+        </div>
+        <div>
+            <button class="button-training">
+                <span><a href="Apply.html">Training Courses</a></span>
+            </button>
+        </div>
+    </div>
+    <div>
+        <button class="button-apply" onclick="openForm()">Apply</button>
+    </div>
+
+    
+    <div class="popup-form" id="Application">
+            <form action="/action_page.php" class="form-container">
+                <h2 class="form">Application</h2>
+                <p class="required-text">* Required Field</p>
+                
+                <label for="FirstName">First Name<span class="required">*</span></label>
+                <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required>
+                
+                <label for="LasttName">Last Name<span class="required">*</span></label>
+                <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required>
+
+                <label for="PhoneNumber">Phone Number<span class="required">*</span></label>
+                <input type="text" placeholder="Enter Phone Number" name="PhoneNumber" id="PhoneNumber" required>
+
+                <label for="Email">Email<span class="required">*</span></label>
+                <input type="text" placeholder="Enter Email Address" name="Email" id="Email" required>
+
+                <label for="RoleType">RoleType<span class="required">*</span></label>
+                <select id="RoleType" name="RoleType">
+                    <option value="Child">Child Role</option>
+                    <option value="Teen">Teen Role</option>
+                    <option value="Adult">Adult Role</option>
+                    <option value="Elder">Elder Role</option>
+                </select>
+                
+                <label for="Experience">Do you have previous experience in this Industry?<span class="required">*</span></label><br>
+                <input type="radio" name="experience" value="Yes">Yes
+                <input type="radio" name="experience" value="No">No
+                <br>
+                <label for="summary">State where and when you received experience below</label>
+                <textarea id="summary"></textarea>
+            
+                <label for="cvupload">Upload a CV</label>
+                <input type="file" id="myFile" name="filename">
+                <br/>
+                <input type="submit" value="Apply">
+            </form>
+    </div>
+        <script>
+            function openForm() {
+                document.getElementById("Application").style.dislay = "block";
+            }
+        </script>
+        
+</body>

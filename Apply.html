@@ -98,7 +98,7 @@
                 </p>
             </div>
         </div>
-        
+
         </div>
         <div>
             <button class="button-training">
@@ -106,53 +106,50 @@
             </button>
         </div>
     </div>
-    <div>
-        <button class="button-apply" onclick="openForm()">Apply</button>
-    </div>
 
     
-    <div class="popup-form" id="Application">
-            <form action="/action_page.php" class="form-container">
-                <h2 class="form">Application</h2>
-                <p class="required-text">* Required Field</p>
-                
-                <label for="FirstName">First Name<span class="required">*</span></label>
-                <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required>
-                
-                <label for="LasttName">Last Name<span class="required">*</span></label>
-                <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required>
 
-                <label for="PhoneNumber">Phone Number<span class="required">*</span></label>
-                <input type="text" placeholder="Enter Phone Number" name="PhoneNumber" id="PhoneNumber" required>
-
-                <label for="Email">Email<span class="required">*</span></label>
-                <input type="text" placeholder="Enter Email Address" name="Email" id="Email" required>
-
-                <label for="RoleType">RoleType<span class="required">*</span></label>
-                <select id="RoleType" name="RoleType">
-                    <option value="Child">Child Role</option>
-                    <option value="Teen">Teen Role</option>
-                    <option value="Adult">Adult Role</option>
-                    <option value="Elder">Elder Role</option>
-                </select>
-                
-                <label for="Experience">Do you have previous experience in this Industry?<span class="required">*</span></label><br>
-                <input type="radio" name="experience" value="Yes">Yes
-                <input type="radio" name="experience" value="No">No
-                <br>
-                <label for="summary">State where and when you received experience below</label>
-                <textarea id="summary"></textarea>
-            
-                <label for="cvupload">Upload a CV</label>
-                <input type="file" id="myFile" name="filename">
-                <br/>
-                <input type="submit" value="Apply">
-            </form>
     </div>
-        <script>
-            function openForm() {
-                document.getElementById("Application").style.dislay = "block";
-            }
-        </script>
-        
+
+    <form>
+        <div class="form-container">
+            <h2 class="form">Application</h2>
+            <p class="required-text">* Required Field</p>
+            
+            <label for="FirstName">First Name<span class="required">*</span></label>
+            <input type="text" placeholder="Enter First Name" name="FirstName" id="FirstName" required>
+            
+            <label for="LasttName">Last Name<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Last Name" name="LastName" id="LastName" required>
+
+            <label for="PhoneNumber">Phone Number<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Phone Number" name="PhoneNumber" id="PhoneNumber" required>
+
+            <label for="Email">Email<span class="required">*</span></label>
+            <input type="text" placeholder="Enter Email Address" name="Email" id="Email" required>
+
+            <label for="RoleType">RoleType<span class="required">*</span></label>
+            <select id="RoleType" name="RoleType">
+                <option value="Child">Child Role</option>
+                <option value="Teen">Teen Role</option>
+                <option value="Adult">Adult Role</option>
+                <option value="Elder">Elder Role</option>
+            </select>
+            
+            <label for="Experience">Do you have previous experience in this Industry?<span class="required">*</span></label><br>
+            <input type="radio" name="experience" value="Yes">Yes
+            <input type="radio" name="experience" value="No">No
+            <br>
+            <label for="summary">State where and when you received experience below</label>
+            <textarea id="summary"></textarea>
+           
+            <label for="cvupload">Upload a CV</label>
+            <input type="file" id="myFile" name="filename">
+            <br/>
+            <input type="submit" value="Apply">
+
+
+        </div>
+    </form>
+
 </body>

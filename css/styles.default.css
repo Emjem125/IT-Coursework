@@ -6,7 +6,6 @@
 [class*="col-"] {
   float: left;
   padding: 15px;
-  border: 1px solid rgba(206, 4, 4, 0.699);
 }
 
 .col-1 {width: 8.33%;}
@@ -90,6 +89,7 @@ body {
     outline-width: 20px;
     outline-color: rgba(43, 17, 0, 0.829);
   }
+
 
   .standard-img {
     width: 95%;
@@ -262,3 +262,72 @@ body {
     padding-right: 20px;
     color: white;
   }
+
+  .film-img {
+    width: 95%;
+    height: 75%;
+  }
+
+.qual-list {
+  color: rgb(44, 18, 2);
+  font-size: 20px;
+  font-size: 23px;
+  font-family: sans-serif;
+  text-align: center;
+  font-weight: 400;
+}
+
+.qual-section {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.button-apply {
+  background: rgb(100, 65, 53) ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 35%;
+  margin-left: 35%;
+  font-size: 20px;
+}
+
+.button-apply span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+.button-apply:hover span {
+  padding-right: 20px;
+  color: white;
+}
+
+.button-training {
+  background: rgb(100, 65, 53) ;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  padding: 5px;
+  width: 200px;
+  height: 50px;
+  margin-right: 50%;
+  margin-left: 50%;
+  font-size: 20px;
+}
+
+.button-training span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.8s;
+}
+
+.button-training:hover span {
+  padding-right: 20px;
+  color: white;
+}

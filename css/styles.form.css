@@ -1,3 +1,12 @@
+.popup-form {
+  display: none;
+  position: relative;
+  bottom: 0;
+  border: 3px solid;
+  border-color: black;
+}
+
+
 
 .form-container {
     padding: 20%;

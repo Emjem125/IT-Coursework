@@ -100,15 +100,17 @@
         </div>
         </div>
         <div>
-            <button class="button-training">
-                <span><a href="Apply.html">Training Courses</a></span>
+            <button class="button-training" onclick="openApplyForm()">Training Courses
+                <!--<span><a href="Apply.html">Training Courses</a></span>-->
             </button>
         </div>
+        <br>
     </div>
 
     
     <div class="popup-form" id="Application">
-            <form action="/action_page.php" class="form-container">
+            <!--<form action="/action_page.php" class="form-container">-->
+                <form class="form-container">
                 <h2 class="form">Application</h2>
                 <p class="required-text">* Required Field</p>
                 
@@ -142,12 +144,21 @@
                 <label for="cvupload">Upload a CV</label>
                 <input type="file" id="myFile" name="filename">
                 <br/>
-                <input type="submit" value="Apply">
+                <input type="submit" value="Apply" onclick="closeApplyForm()">
             </form>
     </div>
       
-        
-</body>
+
+    <script>
+        function openApplyForm() {
+            document.getElementById("Application").style.display = "block";
+        }
+
+        function closeApplyForm() {
+            doc.getElementById("Application").style.display = "none";
+        }
+    </script>
+
 
 </body>
 </html>
